@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .heading {
+    color: #333;
+  }
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content {
+    background-color: white;
+    height: max-content;
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: inset 0px 10px 10px -10px rgba(0, 0, 0, 0.5),
+    inset 10px 0px 10px -10px rgba(0, 0, 0, 0.8),
+    inset -10px 0px 10px -10px rgba(0, 0, 0, 0.8);
+}
+#content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+#content h4 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #666;
+}
+#content h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #666;
+}
+#content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#content a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.2em;
+    color: black;
+}
+#content li {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #666;
+    list-style-type: none;
+    font-weight: 900;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+   display: flex;
+    gap: 25px;
+}
+.button {
+    border: none;
+    font-size: 25px;
+    padding: 1rem;
+}
+.button:hover {
+    background-color: rgb(216, 216, 216);
+}
+.contentcontainer {
+    background-color: black;
+    margin-bottom: -1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100vw;
+    margin-top: -1rem;
+}
+.image {
+    height: 70;
+    width: 90px;
+    overflow: hidden;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover; /* Ensures the image covers the container */
+    object-position: center;
+    font-size: 2.8rem;
+}
